@@ -12,6 +12,9 @@ int main()
     //end
     double nJejari, nLuas;
     cout << "Masukkan Jejari lingkaran = ";
+    cin >> nJejari;
+    nLuas = 3, 14 * nJejari * nJejari;
+    cout << "Luasnya = " << nLuas << endl;
 
     system("pause");
 }
